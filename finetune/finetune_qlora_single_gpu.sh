@@ -43,10 +43,10 @@ python finetune.py \
   --data_path $DATA \
   --fp16 True \
   --output_dir output_qwen \
-  --num_train_epochs 20 \
+  --num_train_epochs 10 \
   --per_device_train_batch_size 6 \
   --per_device_eval_batch_size 1 \
-  --gradient_accumulation_steps 8 \
+  --gradient_accumulation_steps 2 \
   --evaluation_strategy "no" \
   --save_strategy "steps" \
   --save_steps 1000 \
@@ -55,7 +55,7 @@ python finetune.py \
   --weight_decay 0.1 \
   --adam_beta2 0.95 \
   --warmup_ratio 0.01 \
-  --lr_scheduler_type "cosine" \
+  --lr_scheduler_type "constant_with_warmup" \
   --logging_steps 1 \
   --report_to "none" \
   --model_max_length 256 \
