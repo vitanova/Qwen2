@@ -49,7 +49,7 @@ python finetune.py \
   --gradient_accumulation_steps 2 \
   --evaluation_strategy "no" \
   --save_strategy "steps" \
-  --save_steps 1000 \
+  --save_steps 5 \
   --save_total_limit 10 \
   --learning_rate 3e-3 \
   --weight_decay 0.1 \
