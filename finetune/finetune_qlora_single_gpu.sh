@@ -51,10 +51,10 @@ python finetune.py \
   --save_strategy "steps" \
   --save_steps 20 \
   --save_total_limit 1 \
-  --learning_rate 3e-3 \
+  --learning_rate 4e-4 \
   --weight_decay 0.1 \
   --adam_beta2 0.95 \
-  --warmup_ratio 0.01 \
+  --warmup_ratio 0.2 \
   --lr_scheduler_type "constant_with_warmup" \
   --logging_steps 1 \
   --report_to "none" \
