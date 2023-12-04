@@ -7,8 +7,16 @@ df = pd.read_csv('waimai_10k.csv',
 df['label_cn'] = df.apply(lambda row: '好评' if row['label']==1 else '差评',
                           axis=1)
 # 只要1000个
-df = df.sample(n=1000)
-df = df.reset_index().iloc[:, 1:]
+np.random.seed(20231204)
+n = len(df)
+n_train = 1000
+idx_train = np.random.choice(n, size=n_train, replace=False)
+idx_test = list(set(np.arange(n)) - set(idx_train))
+df1 = df.iloc[idx_train]
+df1 = df1.reset_index().iloc[:, 1:]
+df_test = df.iloc[idx_test]
+df_test.to_csv('df_test.csv')
+df = df1
 
 prefix = """外卖评论文本分类任务:
 下面是一些范例:
