@@ -9,7 +9,7 @@ df['label_cn'] = df.apply(lambda row: '好评' if row['label']==1 else '差评',
 # 只要1000个
 np.random.seed(20231204)
 n = len(df)
-n_train = 1000
+n_train = 10000
 idx_train = np.random.choice(n, size=n_train, replace=False)
 idx_test = list(set(np.arange(n)) - set(idx_train))
 df1 = df.iloc[idx_train]
