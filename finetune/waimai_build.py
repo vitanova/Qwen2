@@ -6,6 +6,9 @@ df = pd.read_csv('waimai_10k.csv',
                  encoding='utf-8')
 df['label_cn'] = df.apply(lambda row: '好评' if row['label']==1 else '差评',
                           axis=1)
+# 只要1000个
+df = df.iloc[:1000, :]
+
 prefix = """外卖评论文本分类任务:
 下面是一些范例:
 
