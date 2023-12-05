@@ -29,13 +29,23 @@ def build_fmt_data(cid, category="BUYSELL", human="nan", assistant="nan", datase
 cid = 0
 d_list = []
 with open('data.json', mode='w') as writer:
-    categories = df.columns[1:-1]
+    # categories = df.columns[1:-1]
+    categories = df.columns[2:3]
     for category in categories:
-        prefix = read_in_prompt(category)
+        # prefix = read_in_prompt(category)
+        prefix = """外汇结汇购汇分类任务:
+                下面是一些范例:
+                
+                我想买美元 -> 购汇
+                sell JPYCNY 2m -> 结汇
+                欧元远期 -> nan
+                
+                请对下述评论进行分类。返回'购汇'，'结汇'或'nan'。
+                """
         for i_row in range(len(df)):
-            human = prefix + df.loc[i_row, 'INPUT']
+            human = prefix + df.loc[i_row, 'INPUT'] + ' -> '
             assistant = df.loc[i_row, category]
             d_list.append(build_fmt_data(cid, category, human, assistant))
             cid += 1
-    writer.write(json.dumps(d_list,ensure_ascii=False))
+    writer.write(json.dumps(d_list, ensure_ascii=False))
 print(1)
