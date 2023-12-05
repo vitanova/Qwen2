@@ -22,7 +22,7 @@ def read_in_prompt(component):
 def build_fmt_data(cid, category="BUYSELL", human="nan", assistant="nan", dataset="fwd"):
     fmt_data = {"id": f"{cid}",
                 "conversations": [{"from": "user", "value": f"{human}"},
-                    {"from": "assistant", "value": f"{assistant}"}]}
+                                  {"from": "assistant", "value": f"{assistant}"}]}
     return fmt_data
 
 
