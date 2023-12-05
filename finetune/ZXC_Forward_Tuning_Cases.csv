@@ -12,7 +12,7 @@ sell usdcny 20230220 6.8,SELL,nan,USD CNY,nan,nan,nan,20230220,SELL USDCNY 20230
 EUR CNY 3M 结汇,SELL,结汇,EUR CNY,nan,3M,nan,nan,SELL EURCNY 3M
 远期美元购汇20231231,BUY,购汇,USD,nan,nan,nan,20231231,BUY USDCNY 20231231
 远期美元购汇20230710,BUY,购汇,USD,nan,nan,nan,20230710,BUY USDCNY 20230710
-BUY USDCNY T+0；SELL USDCNY 20241025,BUY SELL,nan,USD CNY,nan,nan,T+0,nan,BUY USDCNY T+0
+BUY USDCNY T+0；SELL USDCNY 20241025,BUY,nan,USD CNY,nan,nan,T+0,nan,BUY USDCNY T+0
 SELL USDCNY 20230630,SELL,nan,USD CNY,nan,nan,nan,20230630,SELL USDCNY 20230630
 远期询价,nan,nan,nan,nan,nan,nan,nan,nan
 USDCNY 即期,nan,nan,USD CNY,nan,nan,T+0,nan,nan
@@ -50,3 +50,7 @@ Sell 美元 Buy 欧元 一年后,Sell,nan,EUR USD,SELL USD BUY EUR,1Y,nan,nan,
 EURCNY 20221123 大后天,Sell,nan,EUR CNY,nan,nan,T+3,20221123,
 Sell USDCNY 后天,Sell,nan,USD CNY,nan,nan,T+2,nan,
 EURCNY 20221111 结汇,Sell,结汇,EUR CNY,nan,nan,nan,20221111,
+欧元看涨,nan,,,,,,,
+新西兰汇率,nan,,,,,,,
+美国利率,nan,,,,,,,
+swap usdcny 1m-2m,nan,,,,,,,

@@ -43,7 +43,7 @@ python finetune.py \
   --data_path $DATA \
   --fp16 True \
   --output_dir output_qwen \
-  --num_train_epochs 2 \
+  --num_train_epochs 10 \
   --per_device_train_batch_size 6 \
   --per_device_eval_batch_size 1 \
   --gradient_accumulation_steps 2 \
