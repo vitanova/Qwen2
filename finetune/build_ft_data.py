@@ -2,11 +2,29 @@ import pandas as pd
 import numpy as np
 import json
 
-df = pd.read_csv('ZXC_Forward_Tuning_Cases.csv',
-                 encoding='utf-8',
-                 dtype=str)
-df['时间'] = df['时间'].replace(np.nan, 'nan')
-df['时间'] = df['时间'].astype('str')
+# df = pd.read_csv('ZXC_Forward_Tuning_Cases.csv',
+#                  encoding='utf-8',
+#                  dtype=str)
+# df['时间'] = df['时间'].replace(np.nan, 'nan')
+# df['时间'] = df['时间'].astype('str')
+#
+# df2 = pd.read_csv('fwd_buysell.csv', encoding='gbk')
+# df2.to_csv('fwd_buysell_utf8.csv', encoding='utf-8', index=False)
+
+df = pd.read_csv('fwd_buysell_utf8.csv', encoding='utf-8')
+np.random.seed(20231205)
+n_train = 300
+n_sample = len(df)
+idx_train = np.random.choice(n_sample, size=n_train, replace=False)
+idx_test = list(set(np.arange(n_sample))-set(idx_train))
+df_train = df.loc[idx_train]
+df_test = df.loc[idx_test]
+
+df_train.to_csv('fwd_train.csv', index=False)
+df_test.to_csv('fwd_test.csv', index=False)
+
+df = df_train
+df = df.reset_index().iloc[:, 1:]
 
 
 def read_in_prompt(component):
