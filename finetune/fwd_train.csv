@@ -1,313 +1,297 @@
-INPUT,方向
-buy usdcny 20220630,BUY
-远期美元1M,NAN
-咨询,NAN
-Sell USDCAD T+0,SELL
-USDCNH 20231117结汇,SELL
-usdcny 20231015 结汇,SELL
-sell usdcny 20230220 6.8,SELL
-USDCNY 20231213,NAN
-usdcny 20231031  结汇,SELL
-SELL USDCNY T+1m,SELL
-USDCNY 结汇,SELL
-Buy USDCNY T+0,BUY
-Sell EURCNY T+0,SELL
-即期美元购汇,BUY
-即期美元结汇,SELL
-USDCNH 8M 结汇,SELL
-7.264,NAN
-询价,NAN
-BUY USDCNY 20231230,BUY
-到账通知可以接受日、周、月的汇总到账通知吗,NAN
-Sell USDCNY 20230623,SELL
-sell usdcny20231229,SELL
-一个月结汇,SELL
-远期询价,NAN
-buy JPYCNY 20231215,BUY
-USDCNY 2M 结汇,SELL
-远期美元购汇20230710,BUY
-usdjpy 即期 购汇,BUY
-USDCNY T+0 结汇,SELL
-7.2027/7.1931,NAN
-USDCNY T+0 购汇,BUY
-USDCNH T+0 结汇,SELL
-buy usdcnh 20231212,BUY
+INPUT,方向,货币,外币对方向,TENOR,时间,EXPECTED
+USDCNY 20230207  购汇,BUY,USD CNY,nan,nan,20230207,nan
+buy usdcny T+0,BUY,USD CNY,nan,T+0,nan,nan
+"2笔展期 usdcny usd 1mio*2 0926 roll to 1226 b/s swp=-730/-760/-780/-860 , and sell eurusd strangle (1.0750, 1.20) eur 1mio*4, exp: 240426/0529/0627/0729 prem=136/153/167/183",NAN,USD CNY EUR,SELL EUR BUY USD,nan,nan,nan
+HKDCNY T+0 购汇 ,BUY,EUR CNY,nan,T+0,nan,nan
+USDCNY 20230724结汇,SELL,USD CNY,nan,nan,20230724,nan
+20230120,NAN,NAN,nan,nan,20230120,nan
+USDCNY  20231130 结汇,SELL,USD CNY,nan,nan,20231130,nan
+buy USDCNY 20240928,BUY,USD CNY,nan,nan,20240928,nan
+BUY HKDCNY 20230316,BUY,HKD CNY,nan,nan,20230316,nan
+USDCNY T+0-1Y,NAN,USD CNY,nan,t+0,nan,nan
+buy usdcnh 20231212,BUY,USD CNH,nan,nan,20231212,nan
+EURUSD 3M 结汇,SELL,EUR USD,SELL EUR BUY USD,3M,nan,BUY EURUSD 3M
+USDCNY 结汇,SELL,USD CNY,nan,nan,nan,nan
+USDCNY 12M 结汇,SELL,USD CNY,nan,1y,nan,nan
+Sell USDCAD T+0,SELL,USD CAD,nan,T+0,nan,nan
+你能介绍下自己吗,NAN,NAN,nan,nan,nan,nan
+Sell USDCNH 20241130,SELL,USD CNH,nan,nan,20241130,nan
+SGDCNY T+0 ,NAN,SGD CNY,nan,T+0,nan,nan
+USDCNY T+1 购汇,BUY,USD CNY,nan,T+1,nan,BUY USDCNY T+1
+Sell EURCNY T+0,SELL,EUR CNY,nan,T+0,nan,nan
+USDCNY 20230812购汇,BUY,USD CNY,nan,nan,20230812,nan
+Sell USDJPY T+0,SELL,USD JPY,nan,t+0,nan,nan
+sell jpycny 20230215,SELL,JPY CNY,nan,nan,20230215,nan
+sell usdcnh 20230329,SELL,USD CNH,nan,nan,20230329,nan
+USDCNY 20230124 购汇 ,BUY,USD CNY,nan,nan,20230124,nan
+卖出,SELL,NAN,nan,nan,nan,nan
+KKDCNY T+0 购,BUY,HKD CNY,nan,T+0,nan,nan
+BUY USDCNY 20240817,BUY,USD CNY,nan,nan,20240817,nan
+即期日元结汇,SELL,JPY,nan,T+0,nan,nan
+Sell USDEUR T+0,SELL,USD EUR,nan,t+0,nan,nan
+美金利率,NAN,USD,nan,nan,nan,nan
+我想买入美元卖出人民币一年,BUY,USD CNY,nan,1Y,nan,BUY USDCNY 1Y
+USDCNY 20231230 购汇,BUY,USD CNY,nan,nan,20231230,nan
+即期美元结汇,SELL,USD,nan,T+0,nan,nan
+即期美元汇率,NAN,USD,nan,t+0,nan,nan
+买美元卖欧元半年,BUY,EUR USD,SELL EUR BUY USD,6M,nan,SELL EURUSD 6M
+USDCNY 20230506 购汇,BUY,USD CNY,nan,nan,20230506,nan
+buy JPYCNY 20230909,BUY,JPY CNY,nan,nan,20230909,nan
+Sell USDCNY 20230228,SELL,USD CNY,nan,nan,20230228,nan
+buy usdcnh 20230912,BUY,USD CNH,nan,nan,20230912,nan
+USDCNY 20230702 结汇,SELL,USD CNY,nan,nan,20230702,nan
+BUY USDCNY 20231007,BUY,USD CNY,nan,nan,20231007,nan
+USDCNH T+0 结汇,SELL,USD CNH,nan,T+0,nan,nan
+USDCNH 结汇,SELL,USD CNH,nan,nan,nan,nan
+sell eurusd T+0 1.07,SELL,EUR USD,SELL EUR BUY USD,T+0,nan,nan
+SELL USDCNY 3M 7.0,SELL,USD CNY,nan,3m,nan,nan
+EUR CNY 3M 购汇,BUY,EUR CNY,nan,3m,nan,nan
+sell usdjpy 20240424,SELL,USD JPY,nan,nan,20240424,nan
+USDCNH 20230210 结汇,SELL,USD CNH,nan,nan,20230210,nan
+Sell USDCNY 12M,SELL,USD CNY,nan,1y,nan,nan
+usdcny 20230909 结汇,SELL,USD CNY,nan,nan,20230909,nan
+卖 USD 买 EUR 12M,SELL,EUR USD,BUY EUR SELL USD,1Y,nan,BUY EURUSD 1Y
+CNH,NAN,CNH,nan,nan,nan,nan
+USDCNY T+0 购汇 ,BUY,USD CNY,nan,T+0,nan,nan
+EURCNY 20221123 大后天,NAN,EUR CNY,nan,T+3,20221123,nan
+报价规范,NAN,NAN,nan,nan,nan,nan
+USDCNH 8M 结汇,SELL,USD CNH,nan,8m,nan,nan
+即期美元购汇,BUY,USD,nan,T+0,nan,nan
+@招小萃 sell usdcny 3m,SELL,USD CNY,nan,3M,nan,SELL USDCNY 3M
+USDCNY 20240412 购汇,BUY,USD CNY,nan,nan,20240412,nan
+buy gbdcny,BUY,GBP CNY,nan,nan,nan,nan
+近结远购,NAN,NAN,nan,nan,nan,nan
+USDCNY 20240812 结汇,SELL,USD CNY,nan,nan,20240812,nan
+sell usdcny +0,SELL,USD CNY,nan,T+0,nan,nan
+欧元购汇,BUY,EUR,nan,nan,nan,nan
+BUY USDCNY T+0；SELL USDCNY 20241025,BUY,USD CNY,nan,T+0,20241025,BUY USDCNY T+0
+SELL USDCNY 2023-06-30,SELL,USD CNY,nan,nan,20230630,SELL USDCNY 20230630
+buy usdcny 20220630,BUY,USD CNY,nan,nan,20220630,nan
+JPYCNY T+0 购汇,BUY,JPY CNY,nan,T+0,nan,nan
+cnyusd t+1 购汇,BUY,CNY USD,nan,t+1,nan,nan
+人民币兑美元,NAN,CNY USD,nan,nan,nan,nan
+美元人民币结汇,SELL,USD CNY,nan,nan,nan,nan
+远期询价,NAN,nan,nan,nan,nan,nan
+JPYCNY 20240114 结汇,SELL,JPY CNY,nan,nan,20240114,nan
+询证函的版本有吗,NAN,NAN,nan,nan,nan,nan
+sell usdcny 20230813,SELL,USD CNY,nan,nan,20230813,nan
+即期离岸港币结汇,SELL,HKD CNH,nan,nan,nan,SELL HKDCNH T+0
+usdcny T+0 结汇,SELL,USD CNY,nan,T+0,nan,nan
+USDCNY 20230331 结汇,SELL,USD CNY,nan,nan,20230331,nan
+USDCNY 20231010 购汇,BUY,USD CNY,nan,nan,20231010,nan
+USDCNY 3,NAN,USD CNY,nan,nan,nan,nan
+USDCNY 20231130购汇,BUY,USD CNY,nan,nan,20231130,nan
+sell usdcny T+6M,SELL,USD CNY,nan,6m,nan,nan
+一个月结汇,SELL,NAN,nan,1m,nan,nan
+远期美元1M,NAN,USD,nan,1m,nan,nan
+USDCNY 2M 结汇,SELL,USD CNY,nan,2M,nan,nan
+Sell USDCNY 20230712,SELL,USD CNY,nan,nan,20230712,nan
+远期美元购汇20230610,BUY,USD,nan,nan,20230610,nan
+EURCNY T+0购汇,BUY,EUR CNY,nan,T+0,nan,nan
+Sell USDCNY 20230623,SELL,USD CNY,nan,nan,20230623,nan
+EURCNY 20230603 结汇,SELL,EUR CNY,nan,nan,20230603,nan
+购汇,BUY,NAN,nan,nan,nan,nan
+usdjpy 即期 购汇,BUY,USD JPY,nan,T+0,nan,nan
+Sell USDCNY 5M,SELL,USD CNY,nan,5M,nan,SELL USDCNY 5M
+sell usdcny 20230927,SELL,USD CNY,nan,nan,20230927,nan
+usdcny 30,NAN,USD CNY,nan,nan,nan,nan
+JPYCNY T+0 结汇,SELL,JPY CNY,nan,T+0,nan,nan
+USDCNY T+1,NAN,USD CNY,nan,t+1,nan,nan
+流程,NAN,NAN,nan,nan,nan,nan
+Sell EURCNH T+0,SELL,EUR CNH,nan,T+0,nan,nan
+SGDCNY 20241220 结汇,SELL,SGD CNY,nan,nan,20241220,nan
+USDCNH 20230730 结汇,SELL,USD CNH,nan,nan,20230730,nan
+结汇,SELL,NAN,nan,nan,nan,nan
+Sell EURUSD T+0,SELL,EUR USD,SELL EUR BUY USD,t+0,nan,nan
+"中国的贸易数据将于今日稍后公布，如果数据显示经济进一步走软，可能会给澳元和新西兰元带来更大压
+力。这两种货币经常被用作人民币的流动性替代物。",NAN,AUD NZD,nan,t+0,nan,nan
+美元对人民币T+1结汇,SELL,USD CNY,nan,T+1,nan,nan
+SELL USDCNY t+9,SELL,USD CNY,nan,nan,nan,nan
+sell usdcny 2023/02/20 6.8,SELL,USD CNY,nan,nan,20230220,SELL USDCNY 20230220
+buy USDCNH T+0,BUY,USD CNH,nan,T+0,nan,nan
+buy usdcny 1m 7.32,BUY,USD CNY,nan,1m,nan,nan
+buy JPYCNY 20231215,BUY,JPY CNY,nan,nan,20231215,nan
+USDCNY T+0 购汇,BUY,USD CNY,nan,T+0,nan,nan
+Sell USDCNY 20221230,SELL,USD CNY,nan,nan,20221230,nan
+区间远期400个点,NAN,NAN,nan,nan,nan,nan
+不用EURUSD 20231017 ,NAN,EUR USD,nan,nan,20231017,nan
+USDCNY T+90 购汇,BUY,USD CNY,nan,nan,nan,nan
+sell usdcny 20230831,SELL,USD CNY,nan,nan,20230831,nan
+SELL USD BUY EUR,SELL,EUR USD,BUY EUR SELL USD,nan,nan,nan
+"例如：
+USDCNY T+1 购汇",BUY,USD CNY,nan,T+1,nan,nan
+EURCNY T+3 购汇,BUY,EUR CNY,nan,T+3,nan,BUY EURCNY T+3
+Buy HKDCNY 2023/12/30,BUY,HKD CNY,nan,nan,20231230,nan
 "美元/人民币(USD/CNY)，交割日为2023年08月28日，当前购汇方向参考价为：
 7.2962
-请注意：该报价仅供我行内部使用！该价格仅供当前时点参考价格，不含风险准备金加点，实际成交请与交易员确认。",BUY
-Sell USDCNY 2024.01.31,SELL
-.USDCNH T+0 结汇,SELL
-USDCNY 20231210 购汇,BUY
-即期日元结汇,SELL
-20240331,NAN
-远期美元购汇20231231,BUY
-buy gbdcny,BUY
-USDCNY T+0 购汇,BUY
-buy USDCNY 20240928,BUY
-BUY USDCNY T+0,BUY
-buy usdcny t+0,BUY
-USDCNH t+0 结汇,SELL
-SGDCNY T+0 ,NAN
-USDCNY 20221230 购汇,BUY
-Sell USDEUR T+0,SELL
-USDCNY 20231024 购汇,BUY
-USDCNH T+0 结汇,SELL
-usdcny 30,NAN
-择期 SELL USDCNY 1M,SELL
-Buy USDCNY T+0,BUY
-USDCNH 20231110 购汇,BUY
-Buy HKDCNY 20231230,BUY
-sell usdcny 20240418,SELL
-即期美元购汇,BUY
-BUY EURCNY 20221230,BUY
-咨询,NAN
-USDCNY 20231030结汇,SELL
-USDCNY T+0 结汇,SELL
-客户 出口 200 一个月,SELL
-EUR CNY 3M 结汇,SELL
-USDCNY 20230331 结汇,SELL
-CNH,NAN
-buy erucny 20230615,BUY
-USDCNY 2M buy,BUY
-USDCNY T+1 购汇,BUY
-今日美元兑人民币价格,NAN
-Sell USDCNY 2023610,SELL
-usdcny 购汇 20231230,BUY
-BUY USDCNY T+0；SELL USDCNY 20241025,BUY
-"例如：
-USDCNY T+0 结汇",SELL
-HKDCNY 20260606 购汇,BUY
-即期美元购汇20230828,BUY
-B/S USDCNY T+2-36M,NAN
-USDCNY 20231231 购汇,BUY
-远期美元结汇1M,SELL
-USDCNY T+90 购汇,BUY
-SELL USDCNY 20231125,SELL
-USDCNY 12M 结汇,SELL
-USDCNY 2m 购汇,BUY
-BUY USDCNY 20220418,BUY
-buy usdcny 20240501,BUY
-USDCNY 20240412 购汇,BUY
-BUY EURUSD T+,BUY
-USDCNY T+2购汇,BUY
-sell usdcny t+0,SELL
-USDCNY 20230724结汇,SELL
-JPYCNY T+0 结汇,SELL
-即期美元购汇,BUY
-Sell USDCNY T+0；,SELL
-USDCNY 20240705 结汇,SELL
-美元价格,NAN
-KKDCNY T+0 购,BUY
-流程,NAN
- ,NAN
-EURCNY T+0 结汇,SELL
-USDCNY T+0 结汇,SELL
-HKDCNY T+0 购汇 ,BUY
-7.0381,NAN
-20230120,NAN
-USDCNY 20230612 结汇,SELL
-SELL EURCNY T+0,SELL
-即期美元结汇,SELL
-USDCNY 3M 结汇,SELL
-USDCNH t+0 结汇,SELL
-即期美元结汇,SELL
-Sell USDCNH 20240715,SELL
-BUY USDCNY 20230820,BUY
-buy usd cny,BUY
-buy uadcny t+0,BUY
-Sell USDCNY 9M,SELL
-SELL USDCNY 20230624,SELL
-USDCNY 3M 结汇 ,SELL
-USDCNY 20230623 购汇,BUY
-USDCNY T+0 结汇,SELL
-3M,NAN
-Sell USDCNY 20221230,SELL
-USDCNY T+0-1Y,NAN
-EURCNY 20230603 结汇,SELL
-HKDCNH T+1 购汇,BUY
-BUY USDCNY 20231230,BUY
-Sell USDCNY 12M,SELL
-cnyusd t+1 购汇,BUY
-远期美元购汇20230331,BUY
-sell usdcny 20230928,SELL
-USDeur 20231016 购汇,BUY
-远期美元结汇3M,SELL
-USDCNY T+1结汇,SELL
-外汇买卖,NAN
-购汇,BUY
-sell usdcnh T+2,SELL
-"1.如到期日观察汇率≤约定汇率，则于交割日按照执行汇率结汇；
-2.如到期日观察汇率>约定汇率，则无交割（即弃权）；",SELL
-buy usdcnh 20230912,BUY
-欧元购汇,BUY
-USDCNY T+1,NAN
-EURCNY T+0 购汇,BUY
-SELL USDCNY T+0,SELL
-buy USDCNY T+0,BUY
-sell,SELL
-USDCNY T+0,NAN
-卖出,SELL
-USDCNY 20230423 结汇,SELL
-buy usdcny 20231031,BUY
-sell usdcny T+1,SELL
-USDCNY T+0 结汇,SELL
-sell usdcny t+2,SELL
-Sell EURUSD T+0,SELL
-即期：BUY USDCNY 20230216,BUY
-USDCNH 结汇,SELL
-SELL USDCNY 20230701,SELL
-USDCNY 20240908 购汇,BUY
-USDCNY 3,NAN
-随心展T+1,NAN
-sell USDCNY 20230622,SELL
-JPYCNY 20230930 购汇,BUY
+请注意：该报价仅供我行内部使用！该价格仅供当前时点参考价格，不含风险准备金加点，实际成交请与交易员确认。",BUY,USD CNY,nan,nan,20230828,nan
+USDCNY T+3 购汇,BUY,USD CNY,nan,T+3,nan,BUY USDCNY T+3
+sell usdcny 2024-03-17,SELL,USD CNY,nan,nan,20240317,nan
+USDCNY T+1 结汇,SELL,USD CNY,nan,T+1,nan,nan
+镍,NAN,NAN,nan,nan,nan,nan
+客户 出口 200 一个月,SELL,NAN,nan,1m,nan,nan
+sell usdcny t+0,SELL,USD CNY,nan,T+0,nan,nan
+USDCNY 20231130 购汇,BUY,USD CNY,nan,nan,20231130,nan
+B/S USDCNY T+2-36M,NAN,USD CNY,nan,T+2,nan,nan
+远期美元购汇20231210,BUY,USD,nan,nan,20231210,nan
+USDCNY 20230531 结汇,SELL,USD CNY,nan,nan,20230531,nan
+外汇买卖,NAN,NAN,nan,nan,nan,nan
+sell usdcny 20230928,SELL,USD CNY,nan,nan,20230928,nan
+卖出欧元买入美元 ,BUY,EUR USD,SELL EUR BUY USD,nan,nan,nan
+sell hkdcny 2023.10.10,SELL,HKD CNY,nan,nan,20231010,nan
+USDeur 20231016 购汇,BUY,USD EUR,nan,nan,20231016,nan
+jpycny t+1,NAN,JPY CNY,nan,T+1,nan,nan
+sell usdcny 20240418,SELL,USD CNY,nan,nan,20240418,nan
+"美元/人民币(USD/CNY)，交割日为2023年08月14日，当前结汇方向参考价为：
+7.2581
+请注意：该报价仅供我行内部使用！该价格仅供当前时点参考价格，实际成交请与交易员确认。",SELL,USD CNY,nan,nan,20230814,nan
+远期美元购汇2023july10,BUY,USD,nan,nan,20230710,BUY USDCNY 20230710
+USDCNY 20230408 购汇,BUY,USD CNY,nan,nan,20230408,nan
+USDCNY 20230511,NAN,USD CNY,nan,nan,20230511,nan
+澳元,NAN,AUD,nan,nan,nan,nan
+USDCNY 20230809 购汇,BUY,USD CNY,nan,nan,20230809,nan
+buy usdcny t+0,BUY,USD CNY,nan,t+0,nan,nan
+sell usdcny,SELL,USD CNY,nan,nan,nan,nan
+USDCNY 3M 结汇,SELL,USD CNY,nan,3M,nan,nan
+到账通知可以接受日、周、月的汇总到账通知吗,NAN,nan,nan,nan,nan,nan
+BUY USDCNY 20220418,BUY,USD CNY,nan,nan,20220418,nan
+buy usdcny T+2,BUY,USD CNY,nan,T+2,nan,nan
+sell,SELL,NAN,nan,nan,nan,nan
+USDCNY 20230612 结汇,SELL,USD CNY,nan,nan,20230612,nan
+USDCNY 20230715结汇,SELL,USD CNY,nan,nan,20230715,nan
+sell usdjpy t+0,SELL,USD JPY,nan,t+0,nan,nan
+BUY USDCNY 20230315,BUY,USD CNY,nan,nan,20230315,nan
+远期美元结汇1M,SELL,USD,nan,1M,nan,nan
+EURCNY 20221123 一周,NAN,EUR CNY,nan,1w,20221123,nan
+Usdcny 20230506购汇,BUY,USD CNY,nan,nan,20230506,nan
+BUY USDCNH Y+0,BUY,USD CNH,nan,T+0,nan,nan
+美元结汇,SELL,USD,nan,nan,nan,nan
+HKDCNY 20230521 购汇 ,BUY,HKD CNY,nan,nan,20230521,nan
+Buy,BUY,NAN,nan,nan,nan,nan
+USDCNH 20231117结汇,SELL,USD CNH,nan,nan,20231117,nan
+远期美元购汇2023dec31,BUY,USD,nan,nan,20231231,BUY USDCNY 20231231
+Sell USDCNY T+0；,SELL,USD CNY,nan,T+0,nan,nan
+即期结汇,SELL,nan,nan,T+0,nan,nan
+USDCNY 20230624 购汇,BUY,USD CNY,nan,nan,20230624,nan
+3M,NAN,NAN,nan,3m,nan,nan
+SELL USDCNH 20240117,SELL,USD CNH,nan,nan,20240117,nan
+卖出欧元买入美元 2W,BUY,EUR USD,SELL EUR BUY USD,2W,nan,SELL EURUSD 2W
+USDCNY 3w 购汇,BUY,USD CNY,nan,3w,nan,BUY USDCNY 3W
+sell USDCNY 20230622,SELL,USD CNY,nan,nan,20230622,nan
+usdcny T+0 购汇,BUY,USD CNY,nan,T+0,nan,nan
+您好，请问招小萃有IP形象嘛～,NAN,NAN,nan,nan,nan,nan
+HKDCNH T+0 结汇,SELL,HKD CNH,nan,T+0,nan,nan
+远期美元购汇2023/3/31,BUY,USD,nan,nan,20230331,BUY USDCNY 20230331
+buy usdcny 20240501,BUY,USD CNY,nan,nan,20240501,nan
+Sell 美元 Buy 欧元 一年后,SELL,EUR USD,BUY EUR SELL USD,1Y,nan,BUY EURUSD 1Y
+USDCNY T+0 购汇 或 Buy USDCNY T+0,BUY,USD CNY,nan,T+0,nan,nan
+随心展T+1,NAN,NAN,nan,T+1,nan,nan
+buy usdcny 20231031,BUY,USD CNY,nan,nan,20231031,nan
+EURCNY 1M 结汇 ,SELL,EUR CNY,nan,1m,nan,nan
+520502,NAN,NAN,nan,nan,nan,nan
+usdcny 购汇 20231230,BUY,USD CNY,nan,nan,20231230,nan
+今日美元兑人民币价格,NAN,USD CNY,nan,T+0,nan,nan
+USDCNY 20240705 结汇,SELL,USD CNY,nan,nan,20240705,nan
+择期 SELL USDCNY 1M,SELL,USD CNY,nan,1m,nan,nan
+Sell USDCNY 20230930,SELL,USD CNY,nan,nan,20230930,nan
+路透新闻,NAN,NAN,nan,nan,nan,nan
+sell EURCNY T+0,SELL,EUR CNY,nan,T+0,nan,nan
+：远期美元结汇1Y,SELL,USD,nan,1Y,nan,nan
+USDCNY 20231210 购汇,BUY,USD CNY,nan,nan,20231210,nan
+usdcny 20231015 结汇,SELL,USD CNY,nan,nan,20231015,nan
+BUY USDCNY 20231230,BUY,USD CNY,nan,nan,20231230,nan
 "--拜登和麦卡锡就尽快提高债务上限各表决心，有可能在周日达成协议
 美国总统拜登和共和党籍众议院议长麦卡锡周三强调，他们决心尽快达成协议，提高联邦政府31.4万亿美元的举债上限，以避免出现将给经济造成灾难性影响的债务违约。“明确地说，此次磋商是关于预算纲要，而不是关于我们是否要(偿还债务)，”拜登称。“(国会)领导人都同意：我们将不会违约。每位领导人都这么说。”
 
 --习近平：中国着力扩大对内对外开放，扩大规则、管理、标准等制度型开放
-中国国家主席习近平表示，要着力扩大对内对外开放，打造内陆改革开放高地。稳",NAN
-美元即期结汇,SELL
-美元对人民币T+1结汇,SELL
-sell hkdcny 20231010,SELL
-EURUSD,NAN
-sell usdjpy t+0,SELL
-buy usdcny T+2,BUY
-EUR CNY 3M 购汇,BUY
-"美元/人民币(USD/CNY)，交割日为2023年08月14日，当前结汇方向参考价为：
-7.2581
-请注意：该报价仅供我行内部使用！该价格仅供当前时点参考价格，实际成交请与交易员确认。",SELL
-USDCNY 20230506 购汇,BUY
-USDCNY  20231130 结汇,SELL
-Sell usdCNY 3M 6.85,SELL
-USDCNY 20231009购汇,BUY
-USDCNH t+0 结汇,SELL
-美元人民币结汇,SELL
-EURUSD 6M 购汇,BUY
-SELL USDCNY T+0,SELL
-Buy usucny t+0,BUY
-sell usdcny t+0,SELL
-USDCNY 20230408 购汇,BUY
-USDJPY T+0 购汇,BUY
-EURCNY T+10 购汇,BUY
-USDCNH T+1 结汇,SELL
-远期美元结汇1M,SELL
-Sell USDCNY 20220510,SELL
-Sell USDCNY 5M,SELL
-远期美元结汇20231229,SELL
-USDCNY 20230331 购汇,BUY
-Sell EURCNH T+0,SELL
-usdcny 结汇,SELL
-684.76	,NAN
-USDCNY T+0 结汇,SELL
-usdcny T+0 购汇,BUY
-SELL USDCNH 20240125,SELL
-sell usdcnh t+0,SELL
-即期美元结汇,SELL
-Sell EURCNY 20230531,SELL
-Usdcny 20230506购汇,BUY
-USDCNY 20231230 购汇,BUY
-buy USDCNH T+0,BUY
-Sell USDJPY T+0,SELL
-JPYCNY 20240114 结汇,SELL
-美元结汇,SELL
-buy USDCNH T+0,BUY
-USDCNY 20230624 购汇,BUY
-buy usdcny T+0,BUY
-sell usdcnh 20230329,SELL
-澳元,NAN
-usdcny 20230909 结汇,SELL
-Sell USDCNY 20230930,SELL
-购汇远期美元,BUY
-Sell USDCNY 20230228,SELL
-USDCNY T+0 购汇 ,BUY
-sell usdcny t+0,SELL
-区间远期报价,NAN
-Sell USDCNH 20241130,SELL
-USDCNY 20240421 结汇,SELL
-USDCNY T+1 结汇,SELL
-USDCNY T+1 结汇,SELL
-sell usdcny 20230813,SELL
-BUY USDCNY 20231007,BUY
-美元即期结汇,SELL
-sell usdcny +0,SELL
-USDCNY 20230812购汇,BUY
-USDCNY 20240812 结汇,SELL
-不用EURUSD 20231017 ,NAN
-远期美元购汇20250417,BUY
-Sell usdcny 20250425,SELL
-远期美元购汇20230610,BUY
-sell usdjpy 20240424,SELL
-USDCNY 20231010 购汇,BUY
-Sell EURCNY T+0,SELL
-即期美元结汇,SELL
-即期美元结汇,SELL
-EURCNY 20231203 结汇,SELL
-buy USDCNY T+0 购汇,BUY
-HKDCNH T+0 结汇,SELL
-远期报价,NAN
-美元远期结汇 20240131,SELL
-USDCNY20230905 结汇,SELL
-近结远购,NAN
-jpycny t+1,NAN
-USDCNY T+0,NAN
-USDCNY T+1 结汇,SELL
-BUY USDCNYT+0,BUY
-Sell EURCNY T+0,SELL
-人民币兑美元,NAN
-即期美元结汇,SELL
-EURCNY T+0 结汇,SELL
-USDCNY 20230507 结汇,SELL
-USDCNY20231211购汇,BUY
-buy usdcny 1m 7.32,BUY
-双货币存款交易时间,NAN
-SELL USDCNH 20240117,SELL
-USDCNH t+0 结汇,SELL
-报价规范,NAN
-远期美元购汇20230331,BUY
-USDCNY T+0,NAN
-EURCNY 1M 结汇 ,SELL
-9点50分，美元/人民币(USD/CNY)，交割日为2023年06月29日，当前结汇方向参考价为：7.2389，供参考。,SELL
-USDCNY T+0 购汇,BUY
-SGDCNY 20241220 结汇,SELL
-USDCNY 20230531 结汇,SELL
-镍,NAN
-EURUSD 3M 结汇,SELL
-sell EURCNY T+0,SELL
-区间远期400个点,NAN
+中国国家主席习近平表示，要着力扩大对内对外开放，打造内陆改革开放高地。稳",NAN,nan,nan,nan,nan,nan
+EUR CNY 3M 结汇,SELL,EUR CNY,nan,3M,nan,SELL EURCNY 3M
+SELL USDCNY 20231125,SELL,USD CNY,nan,nan,20231125,nan
+Buy usucny t+0,BUY,USD CNY,nan,T+0,nan,nan
+Sell USDCNY 20240101,SELL,USD CNY,nan,nan,20240101,nan
+押汇,SELL,NAN,nan,nan,nan,nan
+远期美元购汇20231130,BUY,USD,nan,nan,20231130,nan
+USDCNY T+2购汇,BUY,USD CNY,nan,T+2,nan,nan
+USDCNY T+1结汇,SELL,USD CNY,nan,t+1,nan,nan
+SELL USDCNY T+0,SELL,USD CNY,nan,T+0,nan,nan
+BUY USDCNY 20221230,BUY,USD CNY,nan,nan,20221230,nan
+USDCNY 20230507 结汇,SELL,USD CNY,nan,nan,20230507,nan
+Sell USDCNY T+0,SELL,USD CNY,nan,T+0,nan,nan
+Sell USDCNY 后天,SELL,USD CNY,nan,T+2,nan,SELL USDCNY T+2
+USDCNY 20230405 结汇,SELL,USD CNY,nan,nan,20230405,nan
+USDCNH 20231215,NAN,USD CNH,nan,nan,20231215,nan
 "例如：
-USDCNY T+1 购汇",BUY
-美元购汇,BUY
-BUY USDCNY 20230610,BUY
-BUY USDCNY 20240817,BUY
-USDCNY 20230702 结汇,SELL
-SELL USDCNY 20240820,SELL
-JPYCNY T+0 购汇,BUY
-即期购汇时间,BUY
-USDCNY 202311101 结汇    ,SELL
-美元即期结汇,SELL
-即期美元购汇,BUY
-EURCNY 购汇,BUY
-USDCNY 20240908 购汇,BUY
-USDCNH T+0 结汇,SELL
-USDCNH T+0 结汇,SELL
-USDCNY 20230511,NAN
-远期美元购汇20231210,BUY
-usdcny 12m 结汇,SELL
-远期报价,NAN
-USDCNH 20231215,NAN
-USDCNY T+5 结汇,SELL
-"2笔展期 usdcny usd 1mio*2 0926 roll to 1226 b/s swp=-730/-760/-780/-860 , and sell eurusd strangle (1.0750, 1.20) eur 1mio*4, exp: 240426/0529/0627/0729 prem=136/153/167/183",NAN
-USDCNH 20230730 结汇,SELL
-：远期美元结汇1Y,SELL
-Buy,BUY
-BUY,BUY
-USDCNY 20230813 购汇,BUY
-"SELL USDCNH 20231009
-",SELL
-USDCNH 20230501 结汇,SELL
-USDCNY 20230420 结汇,SELL
-sell usdcny 20230229,SELL
-USDCNY 20230718   结汇,SELL
-USDCNY 20230405 结汇,SELL
-卖出欧元买入美元 ,BUY
-您好，请问招小萃有IP形象嘛～,NAN
+USDCNY T+0 结汇",SELL,USD CNY,nan,T+0,nan,nan
+cadcny 5m gouhui ,BUY,CAD CNY,nan,5M,nan,BUY CADCNY 5M
+EURCNYB T+1 购汇,BUY,EUR CNY,nan,T+1,nan,nan
+USDJPY T+0 购汇,BUY,USD JPY,nan,T+0,nan,nan
+USDCNY 20230831 购汇,BUY,USD CNY,nan,nan,20230831,nan
+USD/CNY 日内价格,NAN,USD CNY,nan,t+0,nan,nan
+USDCNY T+0,NAN,USD CNY,nan,T+0,nan,nan
+美元即期结汇,SELL,USD,nan,T+0,nan,SELL USDCNY T+0
+#(哇),NAN,NAN,nan,nan,nan,nan
+双货币存款交易时间,NAN,NAN,nan,nan,nan,nan
+HKDCNH T+1 购汇,BUY,HKD CNH,nan,T+1,nan,nan
+BUY EURUSD T+,BUY,EUR USD,BUY EUR SELL USD,nan,nan,nan
+即期购汇时间,BUY,NAN,nan,T+0,nan,nan
+Sell usdCNY 3M 6.85,SELL,USD CNY,nan,3m,nan,nan
+USDCNY 20230623 购汇,BUY,USD CNY,nan,nan,20230623,nan
+717.58,NAN,NAN,nan,nan,nan,nan
+USDCNY 20231030结汇,SELL,USD CNY,nan,nan,20231030,nan
+JPYCNY 20240314 结汇,SELL,JPY CNY,nan,nan,20240314,nan
+即期：BUY USDCNY 20230216,BUY,USD CNY,nan,nan,20230216,nan
+Buy USDCNY T+0,BUY,USD CNY,nan,T+0,nan,nan
+"sell usdcny 1m
+sell usdcny 2m",SELL,USD CNY,nan,1m,nan,nan
+buy usd cny,BUY,USD CNY,nan,nan,nan,nan
+美元购汇,BUY,USD,nan,nan,nan,nan
+BUY EURCNY 22年1230,BUY,EUR CNY,nan,nan,20221230,nan
+远期报价,NAN,NAN,nan,nan,nan,nan
+EURUSD 6M 购汇,BUY,EUR USD,nan,6m,nan,nan
+USDCNY20230905 结汇,SELL,USD CNY,nan,nan,20230905,nan
+7.0381,NAN,NAN,nan,nan,nan,nan
+USDCNH T+2 结汇,SELL,USD CNH,nan,T+2,nan,SELL USDCNH T+2
+美元人民币 1m 结汇,SELL,USD CNY,nan,1M,nan,SELL USDCNY 1M
+USDCNY 2m 购汇,BUY,USD CNY,nan,2M,nan,BUY USDCNY 2M
+Sell USDCNY 4W,SELL,USD CNY,nan,nan,nan,nan
+BUY USDCNY T+0,BUY,USD CNY,nan,t+0,nan,nan
+SELL USDCNY 20230624,SELL,USD CNY,nan,nan,20230624,nan
+buy uadcny t+0,BUY,USD CNY,nan,t+0,nan,nan
+SELL USDCNY T+1m,SELL,USD CNY,nan,1m,nan,nan
+sell usdcny T+1,SELL,USD CNY,nan,T+1,nan,nan
+USDCNY 20230813 购汇,BUY,USD CNY,nan,nan,20230813,nan
+buyJPYUSD,BUY,JPY USD,nan,nan,nan,nan
+美元远期结汇 20240131,SELL,USD,nan,nan,20240131,nan
+USDCNY 20230331 购汇,BUY,USD CNY,nan,nan,20230331,nan
+远期美元结汇2023.10.07,SELL,USD,nan,nan,20231007,SELL USDCNY 20231007
+SELL USDCNH 20240125,SELL,USD CNH,nan,nan,20240125,nan
+ ,NAN,NAN,nan,nan,nan,nan
+区间远期报价,NAN,NAN,nan,nan,nan,nan
+JPYCNY 20230930 购汇,BUY,JPY CNY,nan,nan,20230930,nan
+USDCNY 即期,NAN,USD CNY,nan,nan,nan,nan
+存汇盈,NAN,NAN,nan,nan,nan,nan
+购汇远期美元,BUY,USD,nan,nan,nan,nan
+USDCNY 20231024 购汇,BUY,USD CNY,nan,nan,20231024,nan
+USDCNH 20230501 结汇,SELL,USD CNH,nan,nan,20230501,nan
+EURCNY T+0 购汇,BUY,EUR CNY,nan,T+0,nan,nan
+2024.03.31,NAN,NAN,nan,nan,20240331,nan
+buy USDCNY T+0,BUY,USD CNY,nan,T+0,nan,nan
+Sell usdcny 20250425,SELL,USD CNY,nan,nan,20250425,nan
+USDCNY T+5 结汇,SELL,USD CNY,nan,nan,nan,nan
+BUY,BUY,NAN,nan,nan,nan,nan
+美元价格,NAN,USD,nan,nan,nan,nan
+即期 BUY USDCNY 6M,BUY,USD CNY,nan,6m,nan,nan
+USDCNY 20240630 结汇,SELL,USD CNY,nan,nan,20240630,nan
+SELL USDCNY 20240825,SELL,USD CNY,nan,nan,20240825,nan
+USDCNY 20231231 购汇,BUY,USD CNY,nan,nan,20231231,nan
+usdcny 12m 结汇,SELL,USD CNY,nan,1Y,nan,SELL USDCNY 12M
+远期美元结汇20230929,SELL,USD,nan,nan,20230929,nan
+USDCNY 半年 购汇,BUY,USD CNY,nan,6M,nan,BUY USDCNY 6M
+USDCNY 2M buy,BUY,USD CNY,nan,2m,nan,nan
+远期美元结汇2023/12/29,SELL,USD,nan,nan,20231229,nan
+HKDCNY 1m 购,BUY,HKD CNY,nan,1M,nan,BUY HKDCNY 1M
+9点50分，美元/人民币(USD/CNY)，交割日为2023年06月29日，当前结汇方向参考价为：7.2389，供参考。,SELL,USD CNY,nan,nan,20230629,SELL USDCNY 20230629
+EYRCNY 1M ,NAN,EUR CNY,nan,1m,nan,nan
+buy usdcny 10m,BUY,USD CNY,nan,10m,nan,nan
+USDCNY 20230918 结汇,SELL,USD CNY,nan,nan,20230918,nan
+sell HKDcny 20240416,SELL,HKD CNY,nan,nan,20240416,nan
